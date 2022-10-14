@@ -1,5 +1,5 @@
-#include <studio.h>
-#include <time.h>
+# include <studio.h>
+# include <time.h>
 /**
  *main-Entry point if the number is postive ,zero or negative
  *Description:program prints showing if number is postive ,zero or negative
