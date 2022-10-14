@@ -1,4 +1,4 @@
-# include <studio.h>
+# include <stdio.h>
 # include <time.h>
 /**
  *main-Entry point if the number is postive ,zero or negative
