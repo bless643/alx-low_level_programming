@@ -1,38 +1,31 @@
-# include <stdio.h>
+#include <stdio.h>
 /**
- * main - Entry point digit numbers
- * Description -prints all possible different combinations of three digits
- * Return ;0
+ * main - Prints all combinations of two two digits with,
+ * and space followed by new line
+ *
+ * Return: returns 0
  */
 int main(void)
 {
-	int 1, j;
-	int a, b, c, d;
+	int digit1, digit2;
 
-	for (i = 0; i < 100; i++)
+	for (digit1 = 0; digit1 <= 98; digit1++)
 	{
-		a = i / 10;
-		b = i % 10;
-		for (j = 0; j < 100; i++)
+		for (digit2 = digit1 + 1; digit2 <= 99; digit2++)
 		{
-			c = j / 10;
-			d = j % 10;
+			putchar((digit1 / 10) + '0');
+			putchar((digit1 % 10) + '0');
+			putchar(32);
+			putchar((digit2 / 10) + '0');
+			putchar((digit2 % 10) + '0');
 
-			if (a < c || (a == c && b < d))
+			if (digit1 / 10 != 9 || digit1 % 10 != 8)
 			{
-				putchar(a + '0');
-				putchar(b + '0');
+				putchar(44);
 				putchar(32);
-				putchar(c + '0');
-				putchar(d + '0');
-				if (!(a == 9 && b == 8))
-				{
-					putchar(44);
-					putchar(32);
-				}
 			}
 		}
-		10);
-		0);
-
+	}
+	putchar(10);
+	return (0);
 
