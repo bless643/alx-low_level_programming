@@ -1,44 +1,32 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
-  * main - Entry point
-  * Description - main funciton
-  * Return:0
-  */
+ * main - Entry point
+ * Descripton: print main function
+ * Retrun : 0
+ */
 int main(void)
 {
 
-int i, e;
-i = 48;
-e = 48;
+int digit1, digit2;
 
-while (e < 58)
+for (digit1 = 0; digit1 < 9; digit1++)
+{
+for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 {
 
-i = 48;
-while (i < 58)
-{
+putchar((digit1 % 10) + '0');
+putchar((digit2 % 10) + '0');
 
-if (e != i && e < i)
-{
-
-putchar(e);
-
-putchar(i);
-
-if (i == 57 && e == 56)
-{
-break;
-}
+if (digit1 == 8 && digit2 == 9)
+continue;
 
 putchar(',');
 putchar(' ');
-
 }
-i++;
-
 }
-e++;
-
-}
-puthcar('\n');
+putchar('\n');
 return (0);
+
+}
+
