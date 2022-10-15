@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - Prints all combinations of two two digits with,
+ *main - Prints all combinations of two two digits with,
  * and space followed by new line
  *
- * Return: returns 0
+ *Return: returns 0
  */
 int main(void)
 {
@@ -28,4 +28,4 @@ int main(void)
 	}
 	putchar(10);
 	return (0);
-
+}
