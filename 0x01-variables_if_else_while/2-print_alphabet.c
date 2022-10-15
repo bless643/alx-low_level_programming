@@ -1,17 +1,25 @@
-#include <stdlib.h>
-#include <time.h>
+#include <stdio.h>
+
 /**
- *main - Entry point
- *Description: A program that print the alphabet
- *Return :0
- */
+  * main - print if the number is postive, zero, or negative
+  * Description: using the main function
+  * Return: 0
+  */
 
 int main(void)
-
 {
+
 char c;
+
 for (c = 'a' ; c <= 'z' ; c++)
-	putchar(c);
+
+
+
+putchar(c);
+
+
+
 putchar('\n');
 return (0);
+
 }
