@@ -1,20 +1,19 @@
-# include <stdio>
+# include <stdio.h>
 /**
  * main - Entry point
- * Decription - A program that prints the alphabeth in lower then upper case
- * retun : 0
+ * Description: using the main function
+ *  Return: 0
  */
+
 int main(void)
+
 {
-	char ch;
-	for (ch = 'a' ; ch <= 'z' ; c++)
-{
-	putchar(ch);
-}
-for (ch = 'A' ; ch <= 'Z' ; ch++)
-{
-	putchar(ch);
-}
+char c;
+
+for (c = 'a' ; c <= 'z' ; c++)
+
+putchar(c);
+
 putchar('\n');
 return (0);
 
