@@ -1,21 +1,23 @@
-# include <stdio>
+#include <stdio.h>
+
 /**
- * main - Entry point
- * Decripton - A program that prints alphabeth in lowercase execpt q and e
- * return:0
- */
+  * main - Entry point
+  * Description: using the mian function
+  * Return: 0
+  */
+
 int main(void)
 {
-	char ch;
+char ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-	}
-	}
-	putchar('\n');
-	return (0);
+for (ch = 'a' ; ch <= 'z' ; ch++)
+{
+if (ch != 'e' && ch != 'q')
+{
+putchar(ch);
+}
+}
+putchar('\n');
+return (0);
 
 }
