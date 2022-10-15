@@ -1,18 +1,21 @@
-# include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - Entry point
- * Decription prints the lowercase alphabet in reverse
- * Retrun:0
- */
+  * main - Entry point
+  * Description: using the main function
+  * Return: 0
+  */
+
 int main(void)
 {
-	char c;
 
-	for (c = 'z'; c <= 'a'; c--)
-	{
-		putchar(char);
-	}
+char c;
+
+for (c = 'z'; c >= 'a'; c--)
+{
+putchar(c);
 }
 putchar('\n');
 return (0);
+
 }
