@@ -1,16 +1,18 @@
-#include <stdio>
+#include <stdio.h>
 /**
- * main - Entry point
- * Description a program that prints single digit number of base 10 from 0
- * Return : 0
- */
+  * main - print if the number is postive, zero, or negative
+  * Description: using the main function
+  * Return: 0
+  */
+
 int main(void)
 {
-	char n;
 
-	for (n = '0'; n <= '9'; n++)
-		putchar(n);
+char n;
 
-	putchar('\n');
-	return (0);
+for (n = '0'; n <= '9'; n++)
+putchar(n);
+putchar('\n');
+return (0);
+
 }
