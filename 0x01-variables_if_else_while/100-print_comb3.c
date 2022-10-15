@@ -1,23 +1,44 @@
-# include <studio.h>
+#include <stdio.h>
 /**
- * main - Entry point digit numbers
- * Description prints all possible different combinations of two digits
- * Return :0
- */
+  * main - Entry point
+  * Description - main funciton
+  * Return:0
+  */
 int main(void)
 {
-	int c;
 
-	for (c = 48; c <= 57; c++)
-	{
-		putchar(c);
-		if (c != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
-putchar('\n');
-return (0);
+int i, e;
+i = 48;
+e = 48;
+
+while (e < 58)
+{
+
+i = 48;
+while (i < 58)
+{
+
+if (e != i && e < i)
+{
+
+putchar(e);
+
+putchar(i);
+
+if (i == 57 && e == 56)
+{
+break;
 }
 
+putchar(',');
+putchar(' ');
+
+}
+i++;
+
+}
+e++;
+
+}
+puthcar('\n');
+return (0);
