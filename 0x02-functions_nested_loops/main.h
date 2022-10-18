@@ -13,7 +13,7 @@ void print_to_98(int);
 void times_table(int);
 int _putchar(char);
 int _islower(int c);
-int_isalpha(int c);
+int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
 int add(int n, int m);
