@@ -1,4 +1,4 @@
-#include "main.c"
+#include <unistd.h>
 /**
  * *main - function prints text as output
  *
