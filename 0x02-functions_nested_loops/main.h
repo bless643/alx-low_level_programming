@@ -1,8 +1,8 @@
 
 /**
-*filename:main.h
+*File:main.h
+*Author: Blessing Fawole
 *Desc:header file containing functions declaration
-*Author :blessing fawole
 */
 
 void print_alphabet(void);
