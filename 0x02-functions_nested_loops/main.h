@@ -1,16 +1,16 @@
 
 /**
- * *filename:main.h
- * *Descrition : header file contaning  function declarations
- * *Author :blessing fawole
- */
+*filename:main.h
+*Desc:header file containing functions declaration
+*Author :blessing fawole
+*/
 
 void print_alphabet(void);
 void jack_bauer(void);
 void print_alphabet_x10(void);
-void times_table(void);
+void times_table();
 void print_to_98(int);
-void times_table(int);
+void print_times_table(int);
 int _putchar(char);
 int _islower(int c);
 int _isalpha(int c);
