@@ -9,7 +9,6 @@ void rev_string(char *s)
 	int i = 0, length;
 
 	length = _strlen(s) - 1;
-
 	while (length > i)
 	{
 		swap_char(s + length, s + i);
@@ -32,8 +31,20 @@ int _strlen(char *s)
 	for (count = 0; s[count] != '\0'; count++)
 		inc++;
 
+
 	return (inc);
 }
 
 /**
  * swap_char - swap two characters
+ * @a: first character
+ * @b: second character
+ * Return: nothing
+ */
+
+void swap_char(char *a, char *b)
+{
+	char tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
